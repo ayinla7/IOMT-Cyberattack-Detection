@@ -13,7 +13,7 @@ from PIL import Image
 
 
 # Decompress and load the model
-model_file = r"C:\Users\OMOLADE\Desktop\Batch Jobs\To Do\Internet of Medical Things\compressed_iomt_traffic_attack_detector.pkl.gz"
+model_file = r"compressed_iomt_traffic_attack_detector.pkl.gz"
 with gzip.open(model_file, 'rb') as zip_file:
     loaded_model = pickle.load(zip_file)
 
@@ -99,7 +99,7 @@ def homepage_func():
         'This web application is created for educational purposes to demonstrate the detection of cyberattacks in IoMT networks.'
     )
 
-    image_file = r"C:\Users\OMOLADE\Desktop\Batch Jobs\To Do\Internet of Medical Things\iomt_img.jpg"
+    image_file = r"iomt_img.jpg"
     image = Image.open(image_file)
     st.image(image)
         
