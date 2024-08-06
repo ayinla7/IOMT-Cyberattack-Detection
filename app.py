@@ -64,13 +64,13 @@ def main():
             color: #8A2BE2;  /* Blue violet text color */
         }
         .st-cg {
-            color: #BA55D3;  /* Medium orchid text color */
+            color: #28a745;
         }
         .st-dn {
-            color: #DDA0DD;  /* Plum text color */
+            color: #28a745;
         }
         .st-eu {
-            background-color: #D8BFD8;  /* Thistle background color */
+            background-color: #28a745;
         }
         .stAlert {
             color: green;  /* Green text color for st.success */
