@@ -72,8 +72,8 @@ def main():
         .st-eu {
             background-color: #D8BFD8;  /* Thistle background color */
         }
-        .st-success {
-        color: black;  /* Black text color for success messages */
+        .stAlert {
+            color: green;  /* Green text color for st.success */
         }
     </style>
     """
