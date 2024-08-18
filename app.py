@@ -14,7 +14,7 @@ from PIL import Image
 
 # Decompress and load the model
 model_file = r"compressed_iomt_traffic_attack_detector.pkl.gz"
-with gzip.open(model_file, 'rb') as zip_file:
+with open(model_file, 'rb') as zip_file:
     loaded_model = pickle.load(zip_file)
 
 
